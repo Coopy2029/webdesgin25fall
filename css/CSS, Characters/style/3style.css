@@ -1,3 +1,9 @@
-div{
-background-color: firebrick; 
+img{
+border-color: black;
+border-style: outset;
+border-radius: 0%;
+box-shadow: 10px 5px;
+}
+h4{
+    background-color: rgb(148, 133, 244);
 }
