@@ -1,3 +1,22 @@
-div{
-background-color: rgb(138, 136, 139);
+img{
+    border-radius: 15px;
+    border-style: ridge;
+    border-color: rgb(110, 110, 233);
+    border-width: 5px;
 }
+body {
+      background-color: lightblue;
+      font-family: Comic Sans MS, sans-serif;
+    
+    }
+
+   
+
+    
+
+ 
+    h2 {
+      color: navy;
+      border-bottom: 2px solid navy;
+      
+    }

@@ -1,9 +1,65 @@
+  /* General Page Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+
+/* Hero Image */
+.hero-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #00d4ff;
+  box-shadow: 0 0 20px #00d4ff;
+  margin-bottom: 15px;
+}
+
+/* Hero Name */
+.hero-name {
+  font-size: 2em;
+  color: #00d4ff;
+  margin-bottom: 5px;
+}
+
+.hero-tagline {
+  font-style: italic;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+/* Section Headings */
+.hero-info h2 {
+  color: #00d4ff;
+  border-bottom: 2px solid #00d4ff;
+  padding-bottom: 5px;
+  margin: 15px 0 10px;
+}
+
+/* Lists */
+.hero-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hero-info li {
+  text-align: left;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
 img{
-border-color: rgb(255, 255, 255);
-border-style: outset;
-border-radius: 0%;
-box-shadow: 10px 5px;
+    border-radius: 15px;
+    border-style: ridge;
+    border-color: aliceblue;
 }
-h4{
-    background-color: rgb(148, 133, 244);
+h1{
+background-color: aliceblue;
 }
+   
