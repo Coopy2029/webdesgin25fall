@@ -93,7 +93,7 @@ body {
 
 /* Movies Section */
 #movies {
-    background: linear-gradient(135deg, #FFEAA7, #FF6B9D);
+    background: linear-gradient(135deg, #7acef4, #FF6B9D);
     padding: 40px 20px;
     text-align: center;
 }
@@ -153,11 +153,14 @@ body {
 
 #footer .btn {
     background-color: #FF6B9D;
-    color: white;
+    color: rgb(3, 142, 229);
     padding: 10px 20px;
     border-radius: 15px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+}
+img{
+    border-radius: 15px
 }
 
 
