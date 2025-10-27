@@ -1,0 +1,163 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Container for aligning sections */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+#header {
+    background: linear-gradient(135deg, #FF6B9D, #A29BFE);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+#header h1 {
+    font-size: 3rem;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* About Section */
+#about {
+    background-color: #FFEAA7;
+    color: #333;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about img {
+    width: 200px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.stats-box {
+    background-color: #A29BFE;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.stats-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.stats-box li {
+    margin: 10px 0;
+}
+
+/* Achievements Section */
+#achievements {
+    background: #A29BFE;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.achievement-item {
+    background-color: #FF6B9D;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Movies Section */
+#movies {
+    background: linear-gradient(135deg, #FFEAA7, #FF6B9D);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.featured {
+    border: 2px solid #A29BFE;
+    background-color: #FFEAA7;
+}
+
+.movie-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Gallery Section */
+#gallery {
+    background-color: #A29BFE;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gallery-item {
+    display: inline-block;
+    margin: 15px;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Footer Section */
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#footer .btn {
+    background-color: #FF6B9D;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+
