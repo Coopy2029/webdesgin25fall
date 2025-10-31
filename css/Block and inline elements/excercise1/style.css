@@ -1,0 +1,29 @@
+body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.one {
+  background-color: pink;
+  border: 16px solid blue;
+  /* CHANGE ME */
+  padding: 0px;
+  margin: 0px;
+}
+
+.two {
+  background-color: lightblue;
+  border: 18px solid purple;
+  /* CHANGE ME */
+  margin-bottom: 80px;
+}
+
+.three {
+  background-color: peachpuff;
+  border: 20px solid brown;
+  width: 200px;
+  /* CHANGE ME */
+  padding: 0px;
+  margin-left: 300px;
+  
+}
