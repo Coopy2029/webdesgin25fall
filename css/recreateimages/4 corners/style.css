@@ -1,0 +1,36 @@
+*{
+margin: 15px;
+background-color: rgb(19, 21, 21);
+
+}
+.card{
+    background-color: blueviolet;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+}
+.color{
+   background-color: blue;
+   width: 50px;
+   height: 50px;
+}
+.a{
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+.b{
+    position: absolute;
+    top: 100px;
+    left: 455px;
+}
+.c{
+    position: absolute;
+    top: 250px;
+    right: 455px;
+}
+.d{
+    position: absolute;
+left:455px;
+    top: 250px;
+}
