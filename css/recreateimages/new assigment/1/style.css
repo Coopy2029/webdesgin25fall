@@ -29,6 +29,11 @@ html{
     top: 25px;
 }
 .circle-b{
-    background-color: aliceblue;
+    background-color: blueviolet;
     border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+top: 100px;
 }
