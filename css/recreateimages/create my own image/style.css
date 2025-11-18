@@ -1,21 +1,14 @@
-*{
-    background-color: rgb(36, 36, 36);
+body{
+    background-size: cover;
+    background-image: linear-gradient(hotpink, rgb(0, 0, 0));
 }
-.background-1{
-background-color: black;
-position: absolute;
-top: 100px;
-left: 275px;
-height: 400px;
-width: 700px;
-border-radius: 30px;
-border-style: outset;
-border-color: blueviolet;
-border-width: 10px;
-}
-.circle{
+
+.circle {
     border-radius: 50%;
-width: 300px;
-height: 300px;
-    background-image:  linear-gradient(135deg, yellow, rgb(255, 251, 0), salmon, pink, hotpink, rgb(255, 0, 212));
+    position: absolute;
+    top: 75px;
+    left: 200px;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(180deg, yellow, rgb(255, 251, 0), salmon, hotpink, rgb(255, 0, 212));
 }
