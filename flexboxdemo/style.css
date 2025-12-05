@@ -1,0 +1,25 @@
+.container {
+
+    width: 80%;
+  display: flex;               /* Enable flexbox */
+  justify-content: center;     /* Center items horizontally */
+  gap: 20px;                    /* Space between items */
+  align-items: center;         /* Center items vertically (optional) */
+  height: 100vh;
+  position: relative;
+  left: 125px;               /* Full height for vertical centering */
+}
+.container div{
+    border: 4px solid plum;
+    flex: 1;
+    height: 100px;
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: aquamarine;
+}
+.three{
+    background-color: rgb(8, 246, 246);
+}
